@@ -1,0 +1,29 @@
+.cards{
+    display: flex;
+    gap: 15px;
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) {
+    .carousel-inner,
+    .carousel-item {
+      height: 600px;
+    }
+    /* .carousel-caption{
+        margin-bottom: 320px;
+    } */
+    .carousel-item img{
+        height: 100%;
+    }
+
+    
+  }
+  @media only screen and (max-width: 500px){
+    .division{
+        margin-bottom: 15px;
+    }
+    
+  }
